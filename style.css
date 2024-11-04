@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+.multicolumn {
+    column-count: 4; /* Número de columnas */
+    column-gap: 50px; /* Espacio entre columnas */
+    column-rule: 1px solid #ccc; /* Línea entre columnas */
+    padding: 20px;
+    background-color: #fff;
+    margin: 30px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.multicolumn p {
+    margin-bottom: 1em; /* Margen inferior para los párrafos */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .multicolumn {
+        column-count: 1; /* Una columna en pantallas pequeñas */
+        width: 90%; /* Ajusta el ancho para dispositivos móviles */
+    }
+}
+
